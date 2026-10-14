@@ -68,8 +68,6 @@ The title bar always shows the file you're working on: `Wedit - Editing main.rs`
 
 Download `Wedit-Setup-1.0.0.exe` from the Releases page and run it.
 
-<img src="assets/installer.png" alt="Wedit installer" width="480">
-
 The installer:
 - installs just for your Windows account, so it **doesn't need admin rights** (`%LOCALAPPDATA%\Programs\Wedit`)
 - can create Start Menu and Desktop shortcuts
@@ -96,7 +94,7 @@ Prefer not to install? `wedit.exe` is fully portable. Just run it.
 `rc.exe`, which embeds the icon and is installed with the Visual Studio C++ build tools.
 
 ```bash
-git clone https://github.com/<your-username>/wedit.git
+git clone https://github.com/wedit-team/wedit.git
 ```
 
 ```bash
