@@ -1,0 +1,30 @@
+# Rust build output
+/target/
+**/*.rs.bk
+*.pdb
+
+# Release artifacts produced by build.ps1
+/dist/
+
+# Editors / IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# OS clutter
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs and scratch files
+*.log
+*.tmp
+
+# Note: assets/ is committed on purpose. The .ico/.rgba files are embedded
+# into the binaries at compile time, so a fresh clone builds without running icon-gen.
+assets/installer.png

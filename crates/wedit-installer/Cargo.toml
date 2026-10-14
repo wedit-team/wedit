@@ -1,0 +1,21 @@
+[package]
+name = "wedit-installer"
+description = "Wedit Setup"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[[bin]]
+name = "wedit-setup"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.31", default-features = false, features = ["default_fonts", "glow"] }
+egui = "0.31"
+winreg = "0.55"
+mslnk = "0.1"
+dirs = "6"
+rfd = "0.15"
+
+[build-dependencies]
+winresource = "0.1"
